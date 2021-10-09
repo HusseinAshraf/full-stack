@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+header{
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    color: blue;
+}
+#q{
+    float: left;
+}
+nav{
+    background-color: white;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 15px;
+}
+aside{
+    background-color:#f1e4e7;
+    float: left;
+    padding: 20px;
+    width: 20%;
+    height: 400px;
+}
+aside h1{
+    text-align: center;
+    color: blue;
+}
+section{
+    background: blanchedalmond;
+    width: 80%;
+    padding: 10px;
+    height:400px;
+    float: left;
+}
+section video{
+    position: center;
+    margin-right: 50px;
+    margin-left: 250px;
+    
+}
+footer{
+    float: left;
+    padding: 20px;
+    background:pink;
+    text-align: center;
+    width: 100%;
+}
